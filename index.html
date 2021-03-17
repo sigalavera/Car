@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> Choose your vehicle </h1>
+    <form id="formId">
+        
+        Car name:<input type="text" id="carName">
+        Number of wheels:<input type="number" id="wheelsNumber" >
+        Engine Capacity:<input type="number" id="engCaps">
+        Color:<input type="text" id="colorinp">
+    </form>
+
+    <button id= "btn" onclick="sendForm()">send</button>
+
+    <table id="formTable">
+        <tr>
+            <th>Car name</th>
+            <th>Number of wheels</th>
+            <th>Engine Capacity</th>
+            <th>Color</th>
+        </tr>
+        
+    </table>
+    <img src="car.webp" id="carImg">
+
+    <script src="main.js"></script>
+</body>
+
+</html>
+

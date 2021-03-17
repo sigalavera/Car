@@ -1,0 +1,40 @@
+body{
+    background-image: url("backg.jpg");
+    width: 100vw;
+}
+
+h1{
+    text-align: center;
+    height: 10vh;
+}
+input{
+  width: 250px;  
+}
+#formId{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: x-large;
+
+}
+
+#formTable{
+    border: 2px solid black;
+    margin: 50px;
+    margin-left: 40vw;
+
+}
+
+#btn{
+    margin-left: 48vw;
+}
+
+th{
+    border: 2px solid black;
+}
+
+#carImg{
+    width: 100vw;
+}
+
